@@ -1,0 +1,4 @@
+rules:
+	- PlentymarketsRules\Rules\DisallowedNewRule
+	- PlentymarketsRules\Rules\DisallowedFunctionsRule
+	- PlentymarketsRules\Rules\DisallowedClassRule
