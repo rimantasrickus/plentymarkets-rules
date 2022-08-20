@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace App;
 
@@ -6,7 +8,7 @@ use PHPStan\Testing\RuleTestCase;
 use PlentymarketsRules\Rules\DisallowedClassRule;
 
 /**
- * @extends RuleTestCase<DisallowedNewRule>
+ * @extends RuleTestCase<DisallowedClassRule>
  */
 class DisallowedClassRuleTest extends RuleTestCase
 {
