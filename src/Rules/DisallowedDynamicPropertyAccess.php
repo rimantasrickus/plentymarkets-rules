@@ -7,7 +7,6 @@ namespace PlentymarketsRules\Rules;
 use PhpParser\Node;
 use PHPStan\Rules\Rule;
 use PHPStan\Analyser\Scope;
-use PhpParser\Node\Identifier;
 use PhpParser\Node\Expr\Variable;
 use PHPStan\Node\Printer\ExprPrinter;
 
