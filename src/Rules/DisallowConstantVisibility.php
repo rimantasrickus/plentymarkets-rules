@@ -31,18 +31,12 @@ class DisallowConstantVisibility implements Rule
         if ($node->hasAttribute('comments')) {
             $node->setAttribute('comments', []);
         }
+
         $statement = $this->printer->prettyPrint([$node]);
-        if (str_starts_with($statement, 'public')) {
-            return [
-                'Constant visibility not allowed',
-            ];
-        }
-        if (str_starts_with($statement, 'protected')) {
-            return [
-                'Constant visibility not allowed',
-            ];
-        }
-        if (str_starts_with($statement, 'private')) {
+        if (str_starts_with($statement, 'public')
+            || str_starts_with($statement, 'protected')
+            || str_starts_with($statement, 'private')
+        ) {
             return [
                 'Constant visibility not allowed',
             ];
