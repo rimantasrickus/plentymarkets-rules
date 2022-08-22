@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace PlentymarketsRules\Rules;
 
@@ -83,6 +85,7 @@ class DisallowedFunctionsRule implements Rule
         'sprintf',
         'str_getcsv',
         'str_pad',
+        'str_ireplace',
         'str_replace',
         'str_split',
         'strcmp',
