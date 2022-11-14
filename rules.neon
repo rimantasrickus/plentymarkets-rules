@@ -3,4 +3,3 @@ rules:
 	- PlentymarketsRules\Rules\DisallowedFunctionsRule
 	- PlentymarketsRules\Rules\DisallowedClassRule
 	- PlentymarketsRules\Rules\DisallowedDynamicPropertyAccess
-	- PlentymarketsRules\Rules\DisallowConstantVisibility
