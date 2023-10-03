@@ -211,6 +211,7 @@ class DisallowedFunctionsRule implements Rule
         'sort',
         'sprintf',
         'sqrt',
+        'str_contains',
         'str_getcsv',
         'str_ireplace',
         'str_pad',
